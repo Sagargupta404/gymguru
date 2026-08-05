@@ -60,7 +60,7 @@ const blogs = [
   },
 ];
 
-export default function blogs() {
+export default function blogss() {
   return (
     <main className="bg-gray-50 min-h-screen">
 
