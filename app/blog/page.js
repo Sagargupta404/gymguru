@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-const blogs = [
+const blogsss = [
   {
     id: 1,
     title: "10 Best Chest Exercises for Maximum Growth",
@@ -60,7 +60,7 @@ const blogs = [
   },
 ];
 
-export default function blogss() {
+export default function blogs() {
   return (
     <main className="bg-gray-50 min-h-screen">
 
@@ -93,7 +93,7 @@ export default function blogss() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-          {blogs.map((blog) => (
+          {blogsss.map((blog) => (
 
             <div
               key={blog.id}
